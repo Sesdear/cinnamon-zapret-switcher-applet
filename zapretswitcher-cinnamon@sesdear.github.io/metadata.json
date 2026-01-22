@@ -1,0 +1,7 @@
+{
+    "uuid": "zapretswitcher-cinnamon@sesdear.github.io",
+    "name": "Zapret Switcher",
+    "description": "A simple switcher for zapret service",
+    "icon": "zapretswitcher",
+    "max-instances": -1
+}
