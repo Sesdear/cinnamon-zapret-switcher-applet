@@ -45,6 +45,7 @@ MyApplet.prototype = {
 
     getServiceStatus: function(service) {
         let status = this.backtick(`sh -c "systemctl is-active ${service} 2>/dev/null || echo unknown"`);
+        status = status.split("\n")[0];
         return status || "unknown";
     },
 
